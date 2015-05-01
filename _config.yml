@@ -1,26 +1,32 @@
 # Dependencies
+# markdown格式
 markdown:         redcarpet
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 highlighter:      pygments
 
-# Permalinks
+# Permalinks 部落格文章網址的顯示方式
+# date     /:categories/:year/:month/:day/:title.html
+# pretty   /:categories/:year/:month/:day/:title/
+# none     /:categories/:title.httpsml
 permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            '程式是條不歸路'
+#tagline:
+description:      'Saying "Life is what we make it to be", is like saying "Language is what we make it to be" — True but not at once; — just one bit at a time.'
+url:              http://azi.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Azi Chen'
+  #url:
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+#version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+#github:
+#  repo:           https://github.com/poole/hyde
